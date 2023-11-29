@@ -11,3 +11,5 @@ jsoup:img[width="1px"][height="1px"]
 jsoup:img[width="0"][height="0"]
 
 jsoup:a[href*=http://jesuiscelib.com]
+
+jsoup:img[style="display: none; width: 1px; height: 1px;"]
