@@ -16,9 +16,9 @@ Put it in 'text contains'.
 ## Scam websites :
 Put it in 'text contains'.
 
-- jsoup:a[href*=http://jesuiscelib.com]
+- `jsoup:a[href*=http://jesuiscelib.com]`
 
-- jsoup:img[style="display: none; width: 1px; height: 1px;"]
+- `jsoup:img[style="display: none; width: 1px; height: 1px;"]`
 
 ## Microsoft anti-spam headers :
 
