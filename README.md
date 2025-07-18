@@ -1,6 +1,12 @@
 # FairEmail anti spam rules
+Some rules for FairEmail to ditch spam and more.
 
-Some rules for FairEmail to ditch spam.
+## IP rules generator
+The python script `ip_rules_generator.py` is capable to generate an initial deletion rule file for FairEmail (per IP).
+
+Once the file `ip_rules.rules` is created, it can be updated with new IPs given by the user.
+
+This `.rules` file can then be imported into FairEmail.
 
 ## Tracker rules :
 Put it in 'text contains'.
@@ -16,9 +22,9 @@ Put it in 'text contains'.
 ## Scam websites :
 Put it in 'text contains'.
 
-- `jsoup:a[href*=http://jesuiscelib.com]`
+- `jsoup:a[href*=http://thing.com`
 
-- `jsoup:img[src*=https://ongelovigekinderen.site/]`
+- `jsoup:img[src*=https://tracking-thing.com]`
 
 - `jsoup:img[style="display: none; width: 1px; height: 1px;"]`
 
